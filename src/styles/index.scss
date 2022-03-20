@@ -1,0 +1,270 @@
+@import "./variables.scss";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+body,
+html {
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    background: $BackGround;
+    
+}
+
+#root{
+    height: 100%;
+}
+
+
+
+.navbarComponent{
+    background: $Primary;
+    transition: .3s background  ease ;
+}
+
+.navbarComponentClear{
+    background: none;
+    transition: .3s background  ease ;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+.backGround{
+    
+    position: relative;
+    height: 100vh;
+    background: url("../../public/areal.jpg") no-repeat bottom center;
+    background-attachment: fixed;
+    -webkit-clip-path: url(#clipping);
+    clip-path: url(#clipping);
+    background-size: cover;
+}
+
+.navBarDropDown{
+    background-color: $Primary;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+.navBarDropdown{
+    background: $Primary;
+    color: white;
+    text-align: center;
+}
+
+.backGroundPageImg{
+
+    .logo{
+        flex-direction: column;
+        
+        margin-bottom: 13vh;
+        img{
+            margin-bottom: 1vh;
+        }
+
+        h1{
+            color: white;
+        }
+    }
+
+    .title{
+        justify-content: center;
+        padding: 15px;
+        border: 2px solid white;
+        border-radius: 15px;
+        margin-bottom: 12%;
+        img{
+            margin-bottom: 1vh;
+        }
+
+        h1{
+           
+            color: white;
+        }
+    }
+}
+
+.aboutUsWrapper{
+    display: flex;
+    flex-direction: column;
+    .aboutUs, .aboutUs2{
+        width: 30vh;
+        height: 30vh;
+        color: white;
+        border-radius: 15px;
+        border: solid 1px;
+        transform: rotateY(0deg) rotate(45deg); 
+        transition: transform 2s;
+        transform: rotate(45deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+           transform: rotate(-45deg); 
+        }
+    }
+
+    .aboutUs2{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .aboutUsMulty{
+        width: 30vh;
+        height: 30vh;
+        color: white;
+        border-radius: 15px;
+        border: solid 1px;
+        transform: rotateY(0deg) rotate(45deg); 
+        transition: transform 2s;
+        transform: rotate(45deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            text-align: center;
+            font-size: 3vh;
+           transform: rotate(-45deg); 
+        }
+    }
+
+    
+
+    .aboutUsText{
+        .text{
+            text-align: center;
+            color: white;
+            margin-top: 10vh ;
+            font-size: 3vh;
+        }
+        margin-bottom: 10vh;
+
+        .text2{
+            color: white;
+            margin-top: 10vh ;
+            text-align: left;
+            font-size: 2vh;
+            padding: 3vh;
+            background: $Primary;
+            border-radius: 15px;
+        }
+    }
+
+    .caroulselWrapper{
+        margin-top: 12vh;
+        margin-bottom: 12vh;
+        padding: 3vh;
+        background: $Primary;
+        border-radius: 15px;
+            .carousel{
+                img{
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    max-height: 100vh;
+                  }
+            }
+      
+    }
+
+    .calendar{
+        margin-top: 12vh;
+        padding: 3vh;
+        border-radius: 15px;
+        background: $Primary;
+        iframe{
+            width: 80vh;
+            height: 60vh;
+        }
+    }
+        
+}
+
+
+
+.gridCards{
+    margin-bottom: 25vh;
+    .cardStyle{
+        width: 100%;
+       background: $Primary; 
+       margin-bottom: 2vh;
+       color: white;
+       text-decoration: none;
+       border-radius: 15px;
+
+       .buttonStyle{
+            background-color: #32bbbf;
+            border: #32bbbf;
+       }
+
+       .buttonStyle:focus{
+        background-color: #32bbbf;
+        border: none;
+   }
+    }
+}
+
+.footerWrapper{
+    padding: 0;
+    width: 100%;
+
+    background: $Primary;
+
+   color: rgba($color: #fffefe, $alpha: 0.5);
+    .map{
+        iframe{
+            height: 35%;
+            width: 50%;
+        }
+    }
+}
+
+.pricingWrapper{
+    width: 100%;
+    padding: 0;
+
+
+    .ContactForm{
+        margin-bottom: 12vh;
+        color: white;
+        border-radius: 15px;
+        background: $Primary;
+        padding: 3vh;
+        flex-direction: column;
+        
+            .button{
+               
+                background-color: #32bbbf;
+                border: none;
+                width: 10vh;
+               
+            }
+        
+       
+       
+    }
+}
+
+svg { 
+    display: block; 
+    position: absolute;
+    
+    height: 0;
+    width: 0;
+
+   
+}
+

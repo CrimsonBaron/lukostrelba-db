@@ -1,0 +1,46 @@
+{
+    "navbarMembers":[
+        {
+            "key":"0",
+            "text": "O nás",
+            "address":"/" ,
+            "children":[]
+        },
+        {
+            "key":"1",
+            "text": "Něco o Lukostřelbě",
+            "address":"/info" ,
+            "children":[]
+        },
+        {
+            "key":"2",
+            "text": "Začínáme s lukostřelbou",
+            "address":"/archerystart" ,
+            "children":[ ]
+        },
+        {
+            "key":"3",
+            "text": "Ceník",
+            "address":"/pricing" ,
+            "children":[]
+        },
+        {
+            "key":"4",
+            "text": "Tréninky",
+            "address":"/areal" ,
+            "children":[]
+        },
+        {
+            "key":"5",
+            "text": "Areál",
+            "address":"/areal" ,
+            "children":[]
+        },
+        {
+            "key":"6",
+            "text": "Kontakt",
+            "address":"/contact" ,
+            "children":[]
+        }
+    ]
+}

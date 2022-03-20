@@ -1,0 +1,40 @@
+{
+    "cards":[
+        {
+            "key":"0",
+            "title": "Něco o Lukostřelbě" ,
+            "text": "„Luk jako lovná a válečná zbraň se objevil asi před 50 000 lety a byl užíván u všech národů s výjimkou Austrálie.  Vyvíjel se od přímého přes zvratný a hluboký ...",
+            "link": "/somethingSomething"
+        },
+        {
+            "key":"1",
+            "title": "Začínáme s lukostřelbou",
+            "text": "Lukostřelba patří k celosvětově rozšířeným spotům. Je to vhodný sport ...",
+            "link": "/archeryStart"
+        },
+        {
+            "key":"2",
+            "title": "Cenník" ,
+            "text": " ...",
+            "link": "/pricing"
+        },
+        {
+            "key":"3",
+            "title": "Tréninky" ,
+            "text": "...",
+            "link": "/areal"
+        },
+        {
+            "key":"4",
+            "title": "Areál" ,
+            "text": "...",
+            "link": "/areal"
+        },
+        {
+            "key":"5",
+            "title": "Kontakt" ,
+            "text": "...",
+            "link": "/contact"
+        }
+    ]
+}

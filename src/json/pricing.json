@@ -1,0 +1,33 @@
+{
+    "pricing":[
+        {
+            "collum":[
+                {
+                  "title":" Jednorázová lekce",
+                  "text" : " Hodinova lekce s instruktorem zapůjčení luku chráničů a šípů a terčovnice ",
+                  "price":"200Kč"
+                },
+                {
+                    "title":" Jednorázový kurz základy lukostřelby",
+                    "text" : "10 x Lekce s instruktorem zapůjčení luku chráničů a šípů a terčovnice",
+                    "price":"1200Kč"
+                }
+            ]
+        },
+        {
+            "collum":[
+                {
+                  "title":" Lekce na celou sezonu 1 x týdně  ",
+                  "text" : " Lekce na celou sezonu ",
+                  "price":"2500Kč"
+                },
+                {
+                    "title":" Kladkový luk -terčový nebo lovecký lekce ",
+                    "text" : "Jen dospělí",
+                    "price":"500Kč"
+                }
+            ]
+        }
+
+    ]
+}
