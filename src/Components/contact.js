@@ -13,10 +13,10 @@ const Contact = () => {
 
   const Send = async () =>{
     if(from !== '' && msg !== ''){
-      let res = await fetch("http://90.178.98.244:7200/email",
+      let res = await fetch("/email",
       {
         method: "POST",
-        mode: "no-cors",
+        mode: "cors",
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
